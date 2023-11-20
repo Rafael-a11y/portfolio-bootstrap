@@ -65,7 +65,7 @@
 
   .banners
   {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,12 +75,22 @@
 
   .banner-1
   {
-    background-image: url("./assets/Clone-Netflix.png");
+    background-image: url("./assets/circuito-tech.jpg");
+  }
+
+  .banner-2
+  {
+    background-image: url("./assets/computador-vintage.jpg");
+  }
+
+  .banner-3
+  {
+    background-image: url("./assets/Mundo-nortuno.jpg");
   }
 
   .banner-titulo
   {
-    --bs-bg-opacity: .5
+    --bs-bg-opacity: 0.5
   }
 
   .botao-padrao
