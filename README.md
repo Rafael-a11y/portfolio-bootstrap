@@ -33,6 +33,7 @@ https://github.com/Rafael-a11y/portfolio-bootstrap/assets/63820646/4b25fcdc-fa40
 <ul>
   <li><strong>HTML5</strong></li>
   <li><strong>CSS3</strong></li>
+  <li><strong>Javascript</strong></li>
   <li><strong>Bootstrap5</strong></li>
 </ul>
 
