@@ -95,5 +95,97 @@
   .botao-padrao
   {
     background-color: var(--marrom-claro);
-    --bs-btn-color: #FFF;
+    --bs-btn-color: #000;
+  }
+  a
+  {
+    --bs-body-color: #000;
+  }
+
+  .nav-link
+  {
+    --bs-nav-link-color:#000;
+  }
+  .form-check-input,.form-check-input:checked,.form-check-input:focus
+  { 
+    border-color: var(--marrom-claro)!important;
+    outline: none;
+  }
+
+  #form-slider::-webkit-slider-thumb 
+  {
+    background-color: var(--marrom-claro)!important;
+  }
+  .slider::-webkit-slider-runnable-track
+  {
+    background-color: #404040;
+  }
+
+
+  .escrita
+  {
+    display: inline-block;
+  }
+
+  .escrita>h1
+  {
+    font-family: monospace;
+     border-right: 3px solid black;
+    animation: cursor 0.5s infinite,
+      escrevendo 2s steps(20,end) alternate infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    animation-fill-mode: backwards;
+  }
+
+  @keyframes cursor
+  {
+    0%
+    {
+      border-color: transparent;
+    }
+    50%
+    {
+      border-color: black;
+    }
+  }
+@keyframes escrevendo
+  {
+    from
+    {
+      width: 0;
+    }
+    to
+    {
+      width: 100%;
+    }
+  }
+
+  [data-bs-theme="dark"]
+  {
+    --bs-body-color: white; /*Definindo o valor para branco da variável de tema escuro do tema escuro*/
+    .accordion-button,.accordion-button:not(.collapsed),.accordion,.offcanvas,.text-black,.form-select,.btn,.card,.nav-link
+    {
+      --bs-accordion-btn-color: white;
+      --bs-accordion-active-color: white;
+      --bs-accordion-active-bg: white;
+      --bs-offcanvas-color: white;
+      --bs-black-rgb: white;
+      --bs-nav-link-color: white;
+      --bs-btn-color: #FFF;
+    }
+    .form-check-input
+    {
+      background-color: var(--marrom-claro);
+    }
+
+    .accordion-button
+    {
+      background-color: var(--marrom-claro);
+    }
+    .btn-close
+    {
+      --bs-btn-close-opacity: 1;
+    }
+
   }
